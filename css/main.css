@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  max-width: 45em;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  margin-top: 0;
+  vertical-align: middle;
+  padding: 1em;
+  text-align: left;
+}
+
+.text h2 {
+  font-size: 3rem;
+}
+
+.text p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border: solid 3px;
+  border-color: #333;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
