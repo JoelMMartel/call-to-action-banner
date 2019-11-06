@@ -13,9 +13,14 @@ body {
   margin: 0;
 }
 
+.mecha {
+padding-top: 1rem;
+}
+
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .img-flex {
@@ -24,13 +29,16 @@ body {
 }
 
 .content {
+  justify-content: center;
+  align-content: flex-start;
   position: absolute;
   display: flex;
   flex-direction: row;
   left: 50%;
-  top: 50%;
+  bottom: 2rem;
   transform: translateX(-50%);
   max-width: 45em;
+  min-width: 45em;
 }
 
 .text {
@@ -44,6 +52,8 @@ body {
 
 .text h2 {
   font-size: 3rem;
+  padding: 0;
+  margin: 0;
 }
 
 .text p {
