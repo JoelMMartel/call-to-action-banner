@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,11 +9,12 @@ html {
 }
 
 body {
-  margin: 0;
+margin: 0;
 }
 
 .mecha {
 padding-top: 1rem;
+max-width: 100%;
 }
 
 .banner {
@@ -30,7 +30,7 @@ padding-top: 1rem;
 
 .content {
   justify-content: center;
-  align-content: flex-start;
+  align-items: flex-start;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -54,10 +54,13 @@ padding-top: 1rem;
   font-size: 3rem;
   padding: 0;
   margin: 0;
+  font-weight: bold;
 }
 
 .text p {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+  margin-top: 0;
 }
 
 .btn {
@@ -70,6 +73,12 @@ padding-top: 1rem;
   font-size: 1.125rem;
   border: solid 3px;
   border-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: solid 3px;
+  border-color: #000;
 }
 
 .btn-big {
